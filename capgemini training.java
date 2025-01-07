@@ -7,7 +7,10 @@ public static int add(int a,int b){
      }
 public static int mult(int a,int b){
         return a*b;
-
+}
+public static int div(int a,int b){
+        return a/b;
+}
 public static void main(String args[]){
 System.out.print("Welcome to Calculator");
 int sum = sub(5,6);
